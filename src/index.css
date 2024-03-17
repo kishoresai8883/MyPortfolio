@@ -20,8 +20,8 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
-  transition: all 400ms ease;
+  --container-width-sm: 90%;
+  --transition: all 400ms ease;
 }
 
 html {
@@ -65,7 +65,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  padding-top: 5rem;
   height: 100vh;
 }
 
@@ -128,15 +128,15 @@ img {
     width: var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: var(--container-width-ms);
+    width: var(--container-width-sm);
   }
   section > h2 {
     margin-bottom: 2rem;
