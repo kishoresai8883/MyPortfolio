@@ -87,12 +87,19 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .about-me {
-        width: 65%;
-        margin: 0 auto 3rem;
+@media screen and (max-width: 600px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .about-card {
+    .about-me {
+        width:60%;
+        margin: 0 auto 3rem;
+        justify-content: center;
+    }
+    .about-cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }

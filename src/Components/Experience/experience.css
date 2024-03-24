@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .exp-container {
         gap: 1rem;
     }
