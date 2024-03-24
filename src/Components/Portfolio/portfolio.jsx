@@ -5,7 +5,7 @@ import Img2 from '../../Assets/portfolio2.jpg';
 import Img3 from '../../Assets/portfolio3.jpg';
 import Img4 from '../../Assets/portfolio4.jpg';
 import Img5 from '../../Assets/portfolio5.png';
-import Img6 from '../../Assets/portfolio6.jpg';
+import Img6 from '../../Assets/chat.png';
 
 const data = [
     {
@@ -20,7 +20,7 @@ const data = [
         image: Img6,
         title: 'Real-Time Chat Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
+        demo: 'https://dribbble.com/shots/21332880-Chat-Mobile-App'
     },
     {
         id: 3,

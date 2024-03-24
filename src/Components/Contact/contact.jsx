@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import { FaLinkedin } from "react-icons/fa";
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm('service_ssisb0j', 'template_vdtkj1n', form.current, 
+        'btfhpEzLPD46s9T8q',
+      );
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -30,7 +41,7 @@ const Contact = () => {
             <a href="https://linkedin.com/in/kishore-sai" target='_blank'>Send a Message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" cols="30" rows="7" placeholder='Your Message' required ></textarea>
