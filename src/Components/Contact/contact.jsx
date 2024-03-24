@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
-import { FaInstagram } from 'react-icons/fa'
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -24,10 +24,10 @@ const Contact = () => {
             <a href="https://web.whatsapp.com/" target='_blank'>Send a Message</a>
           </article>
           <article className='contact-option'>
-            <FaInstagram className='contact-option-icon'/>
-            <h4>Instagram</h4>
-            <h3>kishore.sai207@gmail.com</h3>
-            <a href="" target='_blank'>Send a Message</a>
+            <FaLinkedin className='contact-option-icon'/>
+            <h4>Linkedin</h4>
+            <h3>https://linkedin.com/in/kishore-sai</h3>
+            <a href="https://linkedin.com/in/kishore-sai" target='_blank'>Send a Message</a>
           </article>
         </div>
         <form action="">

@@ -24,18 +24,22 @@ const About = () => {
             <article className='about-card'>
               <FiUsers className='about-icon'/>
               <h5>Clients</h5>
-              <small>20+ Worldwide</small>
+              <small>6+ Worldwide</small>
             </article>
             <article className='about-card'>
               <VscFolderLibrary className='about-icon'/>
               <h5>Projects</h5>
-              <small>30+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Error, a molestiae? Obcaecati reiciendis excepturi ipsam quas, 
-            nobis quo cumque adipisci similique iste architecto eaque officiis, 
-            deleniti sint fugiat corporis error?
+          <p>
+            I specialize in crafting responsive websites and dynamic web applications 
+            using HTML, CSS, JavaScript, React.js, Node.js, and more. 
+            With expertise in front-end and back-end development, 
+            I create seamless user experiences and robust server-side solutions. 
+            Explore my projects including e-commerce platforms, portfolio websites, 
+            and task management apps, showcasing my skills in design, development, 
+            and integration. Let's connect and bring your digital ideas to life! 
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

@@ -11,45 +11,45 @@ const data = [
     {
         id: 1,
         image: Img1,
-        title: 'Crypto Currency Dashboard & Financial Visualization',
+        title: 'NxtTrendz E-Commerce Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
+        demo: 'https://gknxttrendz.ccbp.tech'
     },
     {
         id: 2,
-        image: Img2,
-        title: 'Charts, Templates & Infographics in Figma',
+        image: Img6,
+        title: 'Real-Time Chat Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16580766-Orion-Ui-kit-Charts-templates-infographics-in-Figma'
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
     },
     {
         id: 3,
-        image: Img3,
-        title: 'Figma Dashboard UI kit for data design web apps',
+        image: Img2,
+        title: 'Simple Stop-watch Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/17290917-Eclips-Figma-dashboard-UI-kit-for-data-design-web-apps'
+        demo: 'https://gkstopwatch.ccbp.tech'
     },
     {
         id: 4,
-        image: Img4,
-        title: 'Maintaining tasks & Tracking progress',
+        image: Img3,
+        title: 'Wiki Search Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+        demo: 'https://kishoresaiwiki.ccbp.tech'
     },
     {
         id: 5,
-        image: Img5,
-        title: 'Crypto Currency Dashboard & Financial Visualization',
+        image: Img4,
+        title: 'Todo Application',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
+        demo: 'https://kishoresaitodo.ccbp.tech'
     },
     {
         id: 6,
-        image: Img6,
-        title: 'Crypto Currency Dashboard & Financial Visualization',
+        image: Img5,
+        title: 'Simple Cash Withdrawal Demo',
         github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
-    },
+        demo: 'https://gkcashwithdraw.ccbp.tech'
+    }
 ]
 
 const Portfolio = () => {
