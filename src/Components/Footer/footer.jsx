@@ -16,9 +16,9 @@ const Footer = () => {
         <li><a href="#">Contact</a></li>
       </ul>
       <div className='footer-socials'>
-        <a href="https://instagram.com/kishoresai_g" target='_blank'><FiInstagram/></a>
-        <a href="https://github.com/kishoresai8883" target='_blank'><FaGithub/></a>
-        <a href="https://twitter.com/Sai207Sai" target='_blank'><IoLogoTwitter/></a>
+        <a href="https://instagram.com/kishoresai_g" target='_blank' rel="noreferrer"><FiInstagram/></a>
+        <a href="https://github.com/kishoresai8883" target='_blank' rel="noreferrer"><FaGithub/></a>
+        <a href="https://twitter.com/Sai207Sai" target='_blank' rel="noreferrer"><IoLogoTwitter/></a>
       </div>
       <div className="footer-copyright">
         <small>&copy; Kishore. All rights reserved.</small>
